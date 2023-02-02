@@ -1,0 +1,81 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" routerLink="/"
+          >home <span class="sr-only">(current)</span></a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" routerLink="spxn">spxn</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" routerLink="spm">spm</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" routerLink="spnb">spnb</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" routerLink="spnb">ca{{ itemInCart }}</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="dropdownId"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          >Dropdown</a
+        >
+        <div class="dropdown-menu" aria-labelledby="dropdownId">
+          <a class="dropdown-item" href="#">Action 1</a>
+          <a class="dropdown-item" href="#">Action 2</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" />
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+        Search
+      </button>
+    </form>
+  </div>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+<footer class="bg-dark text-light pt-3 pb-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>about dac san mien trung</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
+          doloribus quas, sunt aperiam, fugit quis at alias temporibus vero
+          asperiores illo minus? Dolor repudiandae molestias soluta explicabo
+          necessitatibus! Eligendi, tempora!
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h2>about dac san mien trung</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
+          doloribus quas, sunt aperiam, fugit quis at alias temporibus vero
+          asperiores illo minus? Dolor repudiandae molestias soluta explicabo
+          necessitatibus! Eligendi, tempora!
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h2>about dac san mien trung</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
+          doloribus quas, sunt aperiam, fugit quis at alias temporibus vero
+          asperiores illo minus? Dolor repudiandae molestias soluta explicabo
+          necessitatibus! Eligendi, tempora!
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
